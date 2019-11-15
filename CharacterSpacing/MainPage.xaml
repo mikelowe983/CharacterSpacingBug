@@ -9,7 +9,7 @@
              x:Class="CharacterSpacing.MainPage">
 
     <StackLayout Padding="20">
-        <Button Text="Test 1" CharacterSpacing="1" TextColor="Red" HorizontalOptions="Start">
+        <Button Text="Test 1" TextColor="Red" HorizontalOptions="Start">
             <Button.Triggers>
                 <DataTrigger Binding="{Binding Source={x:Reference EnabledSwitch}, Path=IsToggled}" Value="False" TargetType="Button">
                     <Setter Property="TextColor" Value="Blue" />                    
